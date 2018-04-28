@@ -1,11 +1,13 @@
 
 setup{
+
+byte myID = readDIP();
 }
 
 loop{
 
 //listen to serial port
-    if chaserID is received
+    if chaserID is received && (targetID == 42 || targetID == my ID)
     then 
        execute_chaser (chaserID)
     endif
